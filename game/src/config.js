@@ -54,7 +54,7 @@ export const PALETTE = {
   text: '#ffffff',
   muted: '#c9d4e6',
   accent: '#ffd93b',
-  panel: 'rgba(18, 22, 34, 0.92)',
+  panel: '#121622',
   panelBorder: '#ffd93b',
   marker: '#ff3b30',
   ok: '#37d67a',

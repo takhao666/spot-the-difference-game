@@ -383,7 +383,7 @@ export function createRenderer(canvas) {
     context.stroke();
     text(title, FIELD.width / 2, y + 66, 44, PALETTE.text, 'center');
     for (let i = 0; i < lines.length; i += 1) {
-      text(lines[i], FIELD.width / 2, y + 116 + i * 34, 21, PALETTE.muted, 'center', 'normal');
+      text(lines[i], FIELD.width / 2, y + 116 + i * 34, 21, PALETTE.text, 'center', 'normal');
     }
     text(prompt, FIELD.width / 2, y + h - 32, 23, PALETTE.accent, 'center');
   }
